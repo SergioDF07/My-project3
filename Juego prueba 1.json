@@ -337,12 +337,281 @@
         "name": "Red laser17.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Vidasheroe.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Vidasheroe.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/PressStart2P-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "Zana1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zana1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Te_gameOver",
+      "persistentUuid": "0d2333c5-8049-473c-93fc-ec1064033af1",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Game Over",
+      "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 254,
+        "g": 19,
+        "r": 144
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Game Over",
+        "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "144;19;254"
+      }
+    },
+    {
+      "additive": true,
+      "assetStoreId": "ce6caabbc8bee5296428f4e756868114a785fac84bbb6b22d4910a63e421c5df",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 360,
+      "emitterForceMax": 140,
+      "emitterForceMin": 80,
+      "flow": 400,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 400,
+      "name": "BlueExplosion",
+      "particleAlpha1": 255,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 255,
+      "particleBlue2": 255,
+      "particleColor1": "64;255;255",
+      "particleColor2": "128;0;255",
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 255,
+      "particleGreen2": 0,
+      "particleLifeTimeMax": 1.2,
+      "particleLifeTimeMin": 0.6,
+      "particleRed1": 64,
+      "particleRed2": 128,
+      "particleSize1": 50,
+      "particleSize2": 200,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "persistentUuid": "13cf7c4c-13aa-4eca-92cc-210834b591d2",
+      "rendererParam1": 0,
+      "rendererParam2": 0,
+      "rendererType": "Quad",
+      "tank": 100,
+      "textureParticleName": "LightGlow.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 0,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Te_mostrarscore",
+      "persistentUuid": "da0e052d-4651-44b5-8990-0f45ddc73362",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "score",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "score",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Te_score2",
+      "persistentUuid": "fd6c9d61-c4ac-4623-8c25-fdda197bd75b",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Te_youwin",
+      "persistentUuid": "9e01df20-00f3-4665-91b1-4da095cbc18b",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "You Win!",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 254,
+        "g": 19,
+        "r": 144
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "You Win!",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "144;19;254"
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Te_gameOver"
+      },
+      {
+        "objectName": "BlueExplosion"
+      },
+      {
+        "objectName": "Te_mostrarscore"
+      },
+      {
+        "objectName": "Te_score2"
+      },
+      {
+        "objectName": "Te_youwin"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [
@@ -353,9 +622,10 @@
       "value": 0
     },
     {
-      "name": "Var_prueba",
+      "name": "Var_vidas",
+      "persistentUuid": "f030b78b-800c-4c36-9ae3-b180213ba10b",
       "type": "number",
-      "value": 0
+      "value": 6
     }
   ],
   "layouts": [
@@ -381,7 +651,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6672773998329979,
+        "zoomFactor": 0.6455105703311483,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -730,8 +1000,8 @@
           "layer": "",
           "name": "Te_mostrarscore",
           "persistentUuid": "b2656c60-9090-42a5-befc-de0443d94a8b",
-          "width": 160,
-          "x": 384,
+          "width": 128,
+          "x": 0,
           "y": 32,
           "zOrder": 21,
           "numberProperties": [],
@@ -748,8 +1018,8 @@
           "name": "Te_score2",
           "persistentUuid": "6c65c21b-0cb1-464d-9b50-3df57c569c76",
           "width": 261,
-          "x": 507,
-          "y": 38,
+          "x": 128,
+          "y": 32,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -868,9 +1138,9 @@
           "effects": [],
           "behaviors": [
             {
-              "extraBorder": 200,
               "name": "Destruir Fuera",
               "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 200,
               "unseenGraceDistance": 10000
             },
             {
@@ -1219,230 +1489,6 @@
           ]
         },
         {
-          "additive": true,
-          "assetStoreId": "ce6caabbc8bee5296428f4e756868114a785fac84bbb6b22d4910a63e421c5df",
-          "destroyWhenNoParticles": true,
-          "emitterAngleA": 0,
-          "emitterAngleB": 360,
-          "emitterForceMax": 140,
-          "emitterForceMin": 80,
-          "flow": 400,
-          "jumpForwardInTimeOnCreation": 0,
-          "maxParticleNb": 400,
-          "name": "BlueExplosion",
-          "particleAlpha1": 255,
-          "particleAlpha2": 0,
-          "particleAlphaRandomness1": 0,
-          "particleAlphaRandomness2": 0,
-          "particleAngle1": 0,
-          "particleAngle2": 0,
-          "particleAngleRandomness1": 0,
-          "particleAngleRandomness2": 0,
-          "particleBlue1": 255,
-          "particleBlue2": 255,
-          "particleColor1": "64;255;255",
-          "particleColor2": "128;0;255",
-          "particleGravityX": 0,
-          "particleGravityY": 0,
-          "particleGreen1": 255,
-          "particleGreen2": 0,
-          "particleLifeTimeMax": 1.2,
-          "particleLifeTimeMin": 0.6,
-          "particleRed1": 64,
-          "particleRed2": 128,
-          "particleSize1": 50,
-          "particleSize2": 200,
-          "particleSizeRandomness1": 0,
-          "particleSizeRandomness2": 0,
-          "persistentUuid": "13cf7c4c-13aa-4eca-92cc-210834b591d2",
-          "rendererParam1": 0,
-          "rendererParam2": 0,
-          "rendererType": "Quad",
-          "tank": 100,
-          "textureParticleName": "LightGlow.png",
-          "type": "ParticleSystem::ParticleEmitter",
-          "zoneRadius": 0,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Te_mostrarscore",
-          "persistentUuid": "da0e052d-4651-44b5-8990-0f45ddc73362",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "score",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 40,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": true,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "score",
-            "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 40,
-            "lineHeight": 0,
-            "color": "0;0;0"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Te_score2",
-          "persistentUuid": "fd6c9d61-c4ac-4623-8c25-fdda197bd75b",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "0",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 40,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": true,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "0",
-            "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 40,
-            "lineHeight": 0,
-            "color": "0;0;0"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Te_gameOver",
-          "persistentUuid": "0d2333c5-8049-473c-93fc-ec1064033af1",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Game Over",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 70,
-          "color": {
-            "b": 27,
-            "g": 2,
-            "r": 208
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": true,
-            "isShadowEnabled": true,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Game Over",
-            "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 70,
-            "lineHeight": 0,
-            "color": "208;2;27"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Te_youwin",
-          "persistentUuid": "9e01df20-00f3-4665-91b1-4da095cbc18b",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "You Win!",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 70,
-          "color": {
-            "b": 254,
-            "g": 19,
-            "r": 144
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": true,
-            "isShadowEnabled": true,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "You Win!",
-            "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 70,
-            "lineHeight": 0,
-            "color": "144;19;254"
-          }
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Sp_laser",
@@ -1709,18 +1755,6 @@
               },
               {
                 "objectName": "Te_menescena"
-              },
-              {
-                "objectName": "Te_youwin"
-              },
-              {
-                "objectName": "Te_gameOver"
-              },
-              {
-                "objectName": "Te_score2"
-              },
-              {
-                "objectName": "Te_mostrarscore"
               }
             ]
           },
@@ -1747,12 +1781,7 @@
             ]
           },
           {
-            "folderName": "Effects",
-            "children": [
-              {
-                "objectName": "BlueExplosion"
-              }
-            ]
+            "folderName": "Effects"
           },
           {
             "folderName": "Bonus",
@@ -2663,15 +2692,15 @@
       ]
     },
     {
-      "b": 255,
+      "b": 155,
       "disableInputWhenNotFocused": true,
       "mangledName": "Level_322",
       "name": "Level 2",
-      "r": 247,
+      "r": 155,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 249,
+      "v": 155,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -2754,6 +2783,138 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 43,
+          "layer": "",
+          "name": "Ti_vidasheroe",
+          "persistentUuid": "c84d2c01-f883-49d6-b714-21e9be3a3878",
+          "width": 270,
+          "x": 985,
+          "y": 15,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Te_mostrarscore",
+          "persistentUuid": "f886ddc3-1ed7-4ff4-addd-ea0a9d767e4a",
+          "width": 0,
+          "x": 1,
+          "y": 3,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Te_score2",
+          "persistentUuid": "5d152814-478c-4b01-8f43-2590eee4835b",
+          "width": 0,
+          "x": 120,
+          "y": 5,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 718,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ti_suelo",
+          "persistentUuid": "b87f09b5-b8f1-4673-8863-7dfb80ef87fe",
+          "width": 60,
+          "x": 1281,
+          "y": -4,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 717,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ti_suelo",
+          "persistentUuid": "ff8fcec6-af39-4fa7-b99a-8ab0d8977700",
+          "width": 60,
+          "x": -63,
+          "y": 3,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 54,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ti_suelo",
+          "persistentUuid": "dd857ce2-4147-476f-a7e7-68d17becf10d",
+          "width": 1404,
+          "x": -63,
+          "y": -51,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Te_zana",
+          "persistentUuid": "f1262861-7285-40a8-929a-14a456719a0c",
+          "width": 0,
+          "x": 1,
+          "y": 667,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 44,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Te_valorzana",
+          "persistentUuid": "7392a88f-409c-43d1-ab90-a3cdf80692c3",
+          "width": 640,
+          "x": 128,
+          "y": 667,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2768,6 +2929,14 @@
           "effects": [],
           "behaviors": [
             {
+              "extraBorder": 200,
+              "name": "Destruir Fuera",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "unseenGraceDistance": 10000
+            },
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -2780,9 +2949,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "useRepeatedJump": false,
               "xGrabTolerance": 10,
@@ -2940,10 +3107,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -3200,6 +3367,225 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 43,
+          "name": "Ti_vidasheroe",
+          "persistentUuid": "10a2c176-8be1-45f5-97dc-45595d4c0744",
+          "texture": "Vidasheroe.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 45,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Sp_bonus",
+          "persistentUuid": "f6dadf79-822e-49e5-bb3a-8068faad717f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Flash",
+              "type": "Flash::Flash",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Zana1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4.5,
+                            "y": 42
+                          },
+                          {
+                            "x": 17,
+                            "y": 28.5
+                          },
+                          {
+                            "x": 31.5,
+                            "y": 16
+                          },
+                          {
+                            "x": 39.5,
+                            "y": 13
+                          },
+                          {
+                            "x": 43,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 50,
+                            "y": 1
+                          },
+                          {
+                            "x": 58,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 60,
+                            "y": 19
+                          },
+                          {
+                            "x": 56.5,
+                            "y": 24
+                          },
+                          {
+                            "x": 52.5,
+                            "y": 24.5
+                          },
+                          {
+                            "x": 47.5,
+                            "y": 22.5
+                          },
+                          {
+                            "x": 40,
+                            "y": 29.5
+                          },
+                          {
+                            "x": 24,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 10,
+                            "y": 45
+                          },
+                          {
+                            "x": 1,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Te_zana",
+          "persistentUuid": "88b24557-5f4b-4b95-9638-5cff6b1869a4",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Bonos",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 194,
+            "g": 227,
+            "r": 80
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Bonos",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "80;227;194"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Te_valorzana",
+          "persistentUuid": "4cbeb75a-7a58-4b7f-9bf1-9416a0e029c1",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "name": "Var_canzana",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 194,
+            "g": 227,
+            "r": 80
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "80;227;194"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -3219,6 +3605,18 @@
           },
           {
             "objectName": "Sp_bala"
+          },
+          {
+            "objectName": "Ti_vidasheroe"
+          },
+          {
+            "objectName": "Sp_bonus"
+          },
+          {
+            "objectName": "Te_zana"
+          },
+          {
+            "objectName": "Te_valorzana"
           }
         ]
       },
@@ -3236,6 +3634,26 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Re_bonuszana\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Te_score2",
+                "Text",
+                "=",
+                "Var_score"
+              ]
+            },
             {
               "type": {
                 "value": "Create"
@@ -3381,6 +3799,78 @@
               },
               "parameters": [
                 "Sp_mole",
+                "Sp_bonus",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Var_score",
+                "+",
+                "200"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Te_score2",
+                "Text",
+                "=",
+                "Var_score"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Sp_bonus",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Te_valorzana",
+                "Var_canzana",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Te_valorzana",
+                "Text",
+                "=",
+                "Te_valorzana.Var_canzana"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Sp_mole",
                 "colision",
                 "",
                 "",
@@ -3396,6 +3886,259 @@
               "parameters": [
                 "Sp_mole",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BlueExplosion",
+                "Sp_mole.X()",
+                "Sp_mole.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Var_vidas",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+              },
+              "parameters": [
+                "Ti_vidasheroe",
+                "Resizable",
+                "-",
+                "45"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Var_vidas",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Sp_mole",
+                    "50",
+                    "600",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Var_vidas",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Te_gameOver",
+                    "0",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "Te_gameOver",
+                    "=",
+                    "SceneWindowHeight()/2",
+                    "=",
+                    "SceneWindowWidth()/2"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Re_bonuszana\"",
+                ">=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Sp_bonus",
+                "RandomInRange(20, 1260)",
+                "RandomInRange(20, 620)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Re_tiempozana\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Flash::Flash::Flash"
+              },
+              "parameters": [
+                "Sp_bonus",
+                "Flash",
+                "1.5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Re_bonuszana\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Re_tiempozana\"",
+                ">=",
+                "5.5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Sp_bonus",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Te_valorzana",
+                "Var_canzana",
+                "=",
+                "8"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Te_youwin",
+                "0",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Te_youwin",
+                "=",
+                "SceneWindowHeight()/2",
+                "=",
+                "SceneWindowWidth()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Te_youwin",
+                "=",
+                "SceneWindowHeight()/2",
+                "=",
+                "SceneWindowWidth()/2"
               ]
             }
           ]
@@ -3486,6 +4229,10 @@
           "type": "FireBullet::FireBullet"
         },
         {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
+        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -3508,6 +4255,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
