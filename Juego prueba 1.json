@@ -400,7 +400,7 @@
       {
         "file": "Spinning.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Spinning.png\",\"extension\":\".png\"}",
         "name": "Spinning.png",
         "smoothed": true,
         "userAdded": false
@@ -408,7 +408,7 @@
       {
         "file": "Spinning2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Spinning2.png\",\"extension\":\".png\"}",
         "name": "Spinning2.png",
         "smoothed": true,
         "userAdded": false
@@ -416,7 +416,7 @@
       {
         "file": "Spinning3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Spinning3.png\",\"extension\":\".png\"}",
         "name": "Spinning3.png",
         "smoothed": true,
         "userAdded": false
@@ -424,7 +424,7 @@
       {
         "file": "Spinning4.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Spinning4.png\",\"extension\":\".png\"}",
         "name": "Spinning4.png",
         "smoothed": true,
         "userAdded": false
@@ -432,7 +432,7 @@
       {
         "file": "Spinning5.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Spinning5.png\",\"extension\":\".png\"}",
         "name": "Spinning5.png",
         "smoothed": true,
         "userAdded": false
@@ -440,7 +440,7 @@
       {
         "file": "Spinning6.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Spinning6.png\",\"extension\":\".png\"}",
         "name": "Spinning6.png",
         "smoothed": true,
         "userAdded": false
@@ -448,7 +448,7 @@
       {
         "file": "Spinning7.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Spinning7.png\",\"extension\":\".png\"}",
         "name": "Spinning7.png",
         "smoothed": true,
         "userAdded": false
@@ -456,7 +456,7 @@
       {
         "file": "Spinning8.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Spinning8.png\",\"extension\":\".png\"}",
         "name": "Spinning8.png",
         "smoothed": true,
         "userAdded": false
@@ -471,6 +471,80 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/Kenney/Pixel art/6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/Spinning.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spinning",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spinning2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spinning2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spinning3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spinning3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spinning4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spinning4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spinning5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spinning5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spinning6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spinning6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spinning7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spinning7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spinning8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spinning8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New sound effect3.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.43,\\\"sustainPunch\\\":30,\\\"decay\\\":0,\\\"tremoloDepth\\\":49,\\\"tremoloFrequency\\\":379,\\\"frequency\\\":8000,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":6600,\\\"repeatFrequency\\\":98.7,\\\"frequencyJump1Onset\\\":95,\\\"frequencyJump1Amount\\\":-70,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"whistle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":3200,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":3600,\\\"compression\\\":0.7000000000000001,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect\"}}",
+        "name": "New sound effect3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -982,7 +1056,22 @@
       }
     ]
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "colision",
+      "objects": [
+        {
+          "name": "Sp_bala"
+        },
+        {
+          "name": "Sp_centinela"
+        },
+        {
+          "name": "Sp_drone"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "name": "Var_score",
@@ -3105,22 +3194,7 @@
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
-      "objectsGroups": [
-        {
-          "name": "colision",
-          "objects": [
-            {
-              "name": "Sp_bala"
-            },
-            {
-              "name": "Sp_centinela"
-            },
-            {
-              "name": "Sp_drone"
-            }
-          ]
-        }
-      ],
+      "objectsGroups": [],
       "variables": [],
       "instances": [
         {
@@ -3857,7 +3931,7 @@
                 "Sp_drone.PointY(\"Punto_Bala\")",
                 "Sp_bala",
                 "90",
-                "500",
+                "300",
                 ""
               ]
             }
@@ -4485,10 +4559,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -4555,10 +4629,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -4574,6 +4648,14 @@
           "effects": [],
           "behaviors": [
             {
+              "extraBorder": 200,
+              "name": "Destruir Fuera",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "unseenGraceDistance": 10000
+            },
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -4586,9 +4668,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "useRepeatedJump": false,
               "xGrabTolerance": 10,
@@ -4824,21 +4904,21 @@
           "effects": [],
           "behaviors": [
             {
+              "ignoreDefaultControls": true,
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
               "deceleration": 1500,
               "gravity": 1000,
-              "ignoreDefaultControls": false,
               "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "useRepeatedJump": false,
               "xGrabTolerance": 10,
@@ -4847,16 +4927,17 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "Spinning",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Spinning.png",
+                      "image": "Spinning",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4872,27 +4953,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 12,
+                            "x": 6,
                             "y": 0
                           },
                           {
-                            "x": 52,
+                            "x": 26,
                             "y": 0
                           },
                           {
-                            "x": 52,
-                            "y": 64
+                            "x": 26,
+                            "y": 32
                           },
                           {
-                            "x": 12,
-                            "y": 64
+                            "x": 6,
+                            "y": 32
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Spinning2.png",
+                      "image": "Spinning2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4908,27 +4989,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 12,
+                            "x": 6,
                             "y": 0
                           },
                           {
-                            "x": 52,
+                            "x": 26,
                             "y": 0
                           },
                           {
-                            "x": 52,
-                            "y": 64
+                            "x": 26,
+                            "y": 32
                           },
                           {
-                            "x": 12,
-                            "y": 64
+                            "x": 6,
+                            "y": 32
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Spinning3.png",
+                      "image": "Spinning3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4944,27 +5025,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 12,
+                            "x": 6,
                             "y": 0
                           },
                           {
-                            "x": 52,
+                            "x": 26,
                             "y": 0
                           },
                           {
-                            "x": 52,
-                            "y": 64
+                            "x": 26,
+                            "y": 32
                           },
                           {
-                            "x": 12,
-                            "y": 64
+                            "x": 6,
+                            "y": 32
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Spinning4.png",
+                      "image": "Spinning4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4980,27 +5061,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 12,
+                            "x": 6,
                             "y": 0
                           },
                           {
-                            "x": 52,
+                            "x": 26,
                             "y": 0
                           },
                           {
-                            "x": 52,
-                            "y": 64
+                            "x": 26,
+                            "y": 32
                           },
                           {
-                            "x": 12,
-                            "y": 64
+                            "x": 6,
+                            "y": 32
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Spinning5.png",
+                      "image": "Spinning5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5016,27 +5097,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 12,
+                            "x": 6,
                             "y": 0
                           },
                           {
-                            "x": 52,
+                            "x": 26,
                             "y": 0
                           },
                           {
-                            "x": 52,
-                            "y": 64
+                            "x": 26,
+                            "y": 32
                           },
                           {
-                            "x": 12,
-                            "y": 64
+                            "x": 6,
+                            "y": 32
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Spinning6.png",
+                      "image": "Spinning6",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5052,27 +5133,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 12,
+                            "x": 6,
                             "y": 0
                           },
                           {
-                            "x": 52,
+                            "x": 26,
                             "y": 0
                           },
                           {
-                            "x": 52,
-                            "y": 64
+                            "x": 26,
+                            "y": 32
                           },
                           {
-                            "x": 12,
-                            "y": 64
+                            "x": 6,
+                            "y": 32
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Spinning7.png",
+                      "image": "Spinning7",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5088,27 +5169,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 12,
+                            "x": 6,
                             "y": 0
                           },
                           {
-                            "x": 52,
+                            "x": 26,
                             "y": 0
                           },
                           {
-                            "x": 52,
-                            "y": 64
+                            "x": 26,
+                            "y": 32
                           },
                           {
-                            "x": 12,
-                            "y": 64
+                            "x": 6,
+                            "y": 32
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Spinning8.png",
+                      "image": "Spinning8",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5124,20 +5205,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 12,
+                            "x": 6,
                             "y": 0
                           },
                           {
-                            "x": 52,
+                            "x": 26,
                             "y": 0
                           },
                           {
-                            "x": 52,
-                            "y": 64
+                            "x": 26,
+                            "y": 32
                           },
                           {
-                            "x": 12,
-                            "y": 64
+                            "x": 6,
+                            "y": 32
                           }
                         ]
                       ]
@@ -5299,7 +5380,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "0.3"
+                    "0.5"
                   ]
                 },
                 {
@@ -5319,7 +5400,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "0.3"
+                    "0.5"
                   ]
                 },
                 {
@@ -5348,8 +5429,32 @@
                   "parameters": [
                     "",
                     "Sp_centinela",
-                    "SceneWindowWidth()/2",
-                    "Var_Y + 50",
+                    "RandomInRange(20, 1260)",
+                    "Var_Y - 50",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Sp_bun",
+                    "RandomInRange(20, 1220)",
+                    "Var_Y - 40",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Sp_bun",
+                    "RandomInRange(20, 1220)",
+                    "Var_Y - 40",
                     ""
                   ]
                 }
@@ -5481,7 +5586,7 @@
                 "Sp_drone.PointY(\"Punto_Bala\")",
                 "Sp_bala",
                 "90",
-                "500",
+                "300",
                 ""
               ]
             }
@@ -5511,6 +5616,139 @@
               "parameters": [
                 "Ti_terreno",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Sp_heroe",
+                "colision",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Sp_heroe",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BlueExplosion",
+                "Sp_heroe.X()",
+                "Sp_heroe.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "New sound effect3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Sp_heroe",
+                "Sp_bun",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Sp_bun",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "Sp_bun",
+                    "Sp_bun",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Te_youwin",
+                    "0",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "Te_youwin",
+                    "=",
+                    "SceneWindowHeight()/2",
+                    "=",
+                    "SceneWindowWidth()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "colision",
+                    ""
+                  ]
+                }
               ]
             }
           ]
